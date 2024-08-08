@@ -21,7 +21,7 @@ name: Node CI/CD
 on:
   push:
     branches: [ "Merchant" ]
-
+    
 jobs:
   build:
     runs-on: self-hosted
